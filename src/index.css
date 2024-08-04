@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .bg-primary {
+    @apply bg-black
+  }
+  .bg-secondary {
+   @apply bg-gray-900
+  }
+  .bg-ternary{
+  @apply bg-gray-800
+  }
+  .text-secondary{
+    @apply text-slate-200
+  }
+  .text-ternary{
+    @apply text-slate-400
+  }
+  .active{
+    @apply bg-blue-600
+  }
+  .center {
+   @apply items-center justify-center;
+  }
+}
+
+.sidebarHeight{
+  height: calc(100vh - 4rem);
+}
